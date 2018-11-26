@@ -1,0 +1,25 @@
+
+.gallery{
+  float:left;
+
+  width: 100%;
+  min-height: 500px;
+}
+
+
+.product{
+  display: inline-block;
+  margin: 20px;
+  overflow: hidden;
+  width: 400px;
+  height: auto;
+  background-color: #05090f;
+
+  border: 1px solid #020305c9;
+}
+
+
+.product img:hover{
+  opacity: 0.9;
+
+}

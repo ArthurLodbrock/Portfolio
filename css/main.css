@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Expressway";
+  src: url("fonts/expressway.ttf");
+}
+
+body{
+  margin: 0;
+  background-color: #09111e;
+}
+
+
+div.header{
+  background-color: #05090f;
+  height: 35px;
+
+}
+
+div img{
+  margin: 10px;
+  float:left;
+}
+
+.rectangle {
+  position: fixed;
+  left:0;
+  width: 30px;
+  height: 30px;
+  border-radius: 0 50% 50% 0;
+  background: #fbdb00;
+}
+
+.unrectangle {
+  position:fixed;
+  right:0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 0 0 50%;
+  background: #fbdb00;
+}
+
+
+.content{
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:70px;
+  background-color: rgb(244, 247, 255);
+  min-height: 400px;
+  border-radius: 10px 10px 5px 5px;
+  box-shadow: 5px 5px 2px #02030573;
+
+
+}
+
+.bottom{
+  width: 100%;
+  background-color: #05090f;
+  min-height: 100px;
+  padding-bottom: 25px;
+  padding-top: 20px; 
+  z-index: 10;
+}
+
+.division{
+  background-color: #05090f;
+  width:100%;
+  border-radius: 5px 5px 0 0;
+  min-height: 30px;
+
+}
+
+
+.Button{
+  background: #fbdb00;
+  color: #05090f;
+  font-family: "Expressway";
+  border-radius: 5px;
+  border-color: #05090f00;
+
+  box-shadow: 5px 5px 2px #02030573;
+
+  width:110px;
+  height: 40px;
+
+
+}
+
+
+.publication{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 50px 0 50px 0;
+
+}
+
+
+
+
+
+
+li{
+  margin:7px;
+  
+}
+
+a{
+  text-decoration: none;
+  color:honeydew;
+  font-family: "Expressway";
+}
+
+p{
+  font-family: "Expressway";
+}
+
+a:hover { 
+  text-decoration: underline;
+}
+
+h1{
+  font-family: "Expressway";
+}
+
+h3{
+  font-family: "Expressway";
+}
+
+
+
+.center{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:0;
+  width: 50%;
+
+}
+
+
+.di{
+  background: url('img/03.jpg') no-repeat center center;
+
+  height:500px
+}

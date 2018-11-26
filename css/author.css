@@ -1,0 +1,24 @@
+.person img{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border: 15px solid #05090f;
+  border-radius: 50%;
+  box-shadow: 5px 5px 2px #02030573;
+}
+
+.person h1{
+  color: aliceblue;
+  font-family: "Expressway";
+  text-shadow: 5px 5px 2px #02030573;
+}
+
+.person h3{
+  font-family: "Expressway";
+  color: #e0e0e0;
+  margin-bottom: 50px;
+  text-shadow: 5px 5px 2px #02030573;
+}
+
+p{
+  font-family: "Expressway";
+}
